@@ -1,7 +1,7 @@
 # Site settings
 baseurl = "https://Linesmerrill.github.io/MerrillLines/"
 languageCode = "en-us"
-title = "Hugo Artists Theme"
+title = "Merrill Lines"
 theme = "hugo-artists-theme"
 
 [params]
