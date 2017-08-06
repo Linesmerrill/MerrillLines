@@ -60,7 +60,6 @@ theme = "hugo-artists-theme"
 			icon = "linkedin"
 			link = "//www.linkedin.com/in/linesmerrill/"
 
-
 	[params.form]
 		title = "Let's work together"
 		# Form fields
