@@ -3,7 +3,7 @@
 
 if [[ $(git status -s) ]]
 then
-    echo "The working directory is dirty. Please commit any pending changes."
+    echo "The working directory is dirty. Please add and commit any pending changes."
     exit 1;
 fi
 
