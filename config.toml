@@ -42,7 +42,7 @@ theme = "hugo-artists-theme"
 	#
 	# Replace the 'avatar.jpg' under 'static/img' with your own image.
 	[params.about]
-		title = "About me"
+		title = "About Me"
 		bio = "**I specialize in building software** to help make the world a better place. Most of the projects I work on are designed to simplify a difficult process. I also put effort into fun projects that will make people smile."
 
 	# Contact secion
