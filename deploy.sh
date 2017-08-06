@@ -3,12 +3,10 @@
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
 # Build the project.
-hugo -t hugo-artists-theme # if using a theme, replace with `hugo -t <YOURTHEME>`
+hugo
 
-# Go To Public folder
-cd public
 # Add changes to git.
-git add .
+git add -A
 
 # Commit changes.
 msg="rebuilding site `date`"
@@ -19,6 +17,4 @@ git commit -m "$msg"
 
 # Push source and build repos.
 git push origin master
-
-# Come Back up to the Project Root
-cd ..
+git subtree push --prefix=public https://github.com/linesmerrill/merrilllines.git gh-pages
