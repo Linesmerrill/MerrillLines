@@ -1,9 +1,9 @@
 
 #!/bin/sh
 
-DIR=$(dirname "$0")
-
-cd $DIR/..
+# DIR=$(dirname "$0")
+# echo $DIR
+# cd $DIR/..
 
 if [[ $(git status -s) ]]
 then
