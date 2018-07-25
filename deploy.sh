@@ -28,5 +28,5 @@ cd public && git add --all && git commit -m "Publishing to gh-pages (publish.sh)
 echo "Updating master branch"
 git push
 
-echo "Resetting gh-pages branch"
+echo "Updating gh-pages branch"
 cd public && git reset HEAD~1 && git stash
