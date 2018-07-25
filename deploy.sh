@@ -23,10 +23,9 @@ hugo
 cd public && git add --all && git commit -m "Publishing to gh-pages" && git push origin gh-pages
 
 # publish
-git push upstream gh-pages
 
 #echo "Checking out gh-pages branch into public"
-#git worktree add -B gh-pages public origin/gh-pages
+git worktree add -B gh-pages public origin/gh-pages
 
 #echo "Removing existing files"
 #rm -rf public/*
@@ -38,4 +37,4 @@ git push upstream gh-pages
 #cd public && git add --all && git commit -m "Publishing to gh-pages (publish.sh)" && cd ..
 
 #echo "Updating master branch"
-#git push
+git push
