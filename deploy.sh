@@ -28,4 +28,4 @@ cd public && git add --all && git commit -m "Publishing to gh-pages (publish.sh)
 echo "Updating master branch"
 git push
 
-
+git clone .git --branch gh-pages public
